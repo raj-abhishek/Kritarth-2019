@@ -1,0 +1,133 @@
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+/*  GO TO TOP  */
+
+.c-go-top {
+  background: none repeat scroll 0 0 padding-box #1099dd;
+  bottom: 20px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: #111;
+  border-radius: 4px;
+  color: #fff;
+  display: none;
+  font-size: 12px;
+  padding: 10px;
+  position: fixed;
+  text-decoration: none;
+  z-index: 999; }
+
+.c-go-top:hover,
+.c-go-top:focus,
+.c-go-top:active,
+.c-go-top:visited {
+  color: #fff;
+  outline: 0;
+  text-decoration: none; }
+
+
+
+
+
+  /*  F O O T E R */
+  #end-footer{
+    width: 100%;
+    height: 200px;
+    background: #141E30;
+  }
+
+  #footer-social {
+display: inline-block;
+position: relative;
+top:90px;
+left: 50%;
+-ms-transform:translate(-50%,-50%);
+-webkit-transform:translate(-50%,-50%);
+transform:translate(-50%,-50%);
+}
+
+/* Icons*/
+
+.socio {
+color:#fff;
+background: #DB6E82;
+border-radius:4px;
+text-align:center;
+text-decoration:none;
+font-family: fontawesome;
+position: relative;
+display: inline-block;
+width:50px;
+height:50px;
+padding-top:12px;
+margin:0 20px;
+border-radius: 28%;
+-o-transition:all .5s;
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+transition: all .5s;
+-webkit-font-smoothing: antialiased;
+}
+
+.socio:hover {
+background: #ef92a3;
+}
+
+/* pop-up text */
+
+.socio span {
+color:#666;
+position:absolute;
+font-family:sans-serif;
+bottom:0;
+left:-25px;
+right:-25px;
+padding:10px 7px;
+z-index:-1;
+font-size:14px;
+border-radius:2px;
+background:#fff;
+visibility:hidden;
+opacity:0;
+-o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+-webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+-moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* pop-up text arrow */
+
+.socio span:before {
+content:'';
+width: 0;
+height: 0;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+border-top: 5px solid #fff;
+position:absolute;
+bottom:-5px;
+left:40px;
+}
+
+/* text pops up when icon is in hover state */
+
+.socio:hover span {
+bottom:60px;
+visibility:visible;
+opacity:1;
+}
+
+/* font awesome icons */
+
+.foo-content{
+margin-top: 80px;
+
+}

@@ -1,0 +1,190 @@
+   body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+
+  }
+
+  .navbar.solid {
+  background-color: #000019;
+  transition: background-color 0.3s ease 0s;
+  box-shadow: 0 0 4px grey; }
+
+  .navbar .nav-item {
+  padding-right: 1.4rem; }
+
+    #reg-head{
+      background-image: url(../img/IMG_1405.jpg);
+      background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+      min-height: 500px;
+      width: 100%;
+    }
+    #reg-head .overlay{
+        position: absolute;
+            top: 0;
+              left: 0;
+                width: 100%;
+                   min-height: 500px;
+                      background-color: rgba(0,0,0,0.7);
+           }
+       #reg-head .inner-content{
+           padding-top: 150px;
+       }
+       .preloader {
+           background: #000;
+           background: radial-gradient(#222, #000);
+           bottom: 0;
+           left: 0;
+           overflow: hidden;
+           position: fixed;
+           right: 0;
+           top: 0;
+           z-index: 99999;
+       }
+
+       .preloader-inner {
+           bottom: 0;
+           height: 60px;
+           left: 0;
+           margin: auto;
+           position: absolute;
+           right: 0;
+           top: 0;
+           width: 100px;
+       }
+
+       .preloader-line-wrap {
+           animation:
+       		spin 2000ms cubic-bezier(.175, .885, .32, 1.275) infinite
+       	;
+           box-sizing: border-box;
+           height: 50px;
+           left: 0;
+           overflow: hidden;
+           position: absolute;
+           top: 0;
+           transform-origin: 50% 100%;
+           width: 100px;
+       }
+       .preloader-line {
+           border: 4px solid transparent;
+           border-radius: 100%;
+           box-sizing: border-box;
+           height: 100px;
+           left: 0;
+           margin: 0 auto;
+           position: absolute;
+           right: 0;
+           top: 0;
+           width: 100px;
+       }
+       .preloader-line-wrap:nth-child(1) { animation-delay: -50ms; }
+       .preloader-line-wrap:nth-child(2) { animation-delay: -100ms; }
+       .preloader-line-wrap:nth-child(3) { animation-delay: -150ms; }
+       .preloader-line-wrap:nth-child(4) { animation-delay: -200ms; }
+       .preloader-line-wrap:nth-child(5) { animation-delay: -250ms; }
+
+       .preloader-line-wrap:nth-child(1) .preloader-line {
+           border-color: hsl(0, 80%, 60%);
+           height: 90px;
+           width: 90px;
+           top: 7px;
+       }
+       .preloader-line-wrap:nth-child(2) .preloader-line {
+           border-color: hsl(60, 80%, 60%);
+           height: 76px;
+           width: 76px;
+           top: 14px;
+       }
+       .preloader-line-wrap:nth-child(3) .preloader-line {
+           border-color: hsl(120, 80%, 60%);
+           height: 62px;
+           width: 62px;
+           top: 21px;
+       }
+       .preloader-line-wrap:nth-child(4) .preloader-line {
+           border-color: hsl(180, 80%, 60%);
+           height: 48px;
+           width: 48px;
+           top: 28px;
+       }
+       .preloader-line-wrap:nth-child(5) .preloader-line {
+           border-color: hsl(240, 80%, 60%);
+           height: 34px;
+           width: 34px;
+           top: 35px;
+       }
+
+       @keyframes spin {
+           0%, 15% {
+       		transform: rotate(0);
+       	}
+       	100% {
+       		transform: rotate(360deg);
+       	}
+       }
+
+
+/*   RANDOM WORDS   */
+.loader {
+  position: absolute;
+  margin-top: 120px;
+  top: 51%;
+  left: 50%;
+  width: 300px;
+  color: #EAEAEA;
+  text-align: left;
+  font-size: 50px;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+}
+.loader:after {
+  content: '_';
+}
+@media (max-width: 564px) {
+  .loader {
+    position: absolute;
+    top: 51%;
+    left: 51%;
+    width: 300px;
+    color: #0c9c73;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .loader:after {
+    content: '_';
+  }
+}
+.mt-50{
+  margin-top: 120px;
+}
+
+.cap{
+ margin-left: 30%;
+}
+@media (max-width:768px) {
+  .cap{
+  margin-left: 2%;
+  }
+
+}
+   /*  REGISTER  */
+
+   #offline{
+     box-shadow: 0 40px 110px rgba(0, 0, 0, 0.45);
+   }
+   #reg-on{
+     box-shadow: 0 40px 110px rgba(0, 0, 0, 0.45);
+   }
